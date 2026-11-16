@@ -1,0 +1,6 @@
+# Python runtime used for the verified project pipeline: Python 3.12.14
+# Third-party dependencies imported by AgricProject_Single_File.py.
+# Versions below match the documented verified processing environment.
+
+numpy==2.3.5
+pandas==2.2.3

@@ -1,0 +1,107 @@
+# -----------------------------------------------------------------------------
+# Python: bytecode, virtual environments, test/lint caches and build artefacts
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+ENV/
+env/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+build/
+dist/
+*.egg-info/
+
+# -----------------------------------------------------------------------------
+# Local configuration and secrets
+# Keep example configuration files in the repository.
+# -----------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+config.json
+local_config.json
+*.local.json
+!config.example.json
+
+# Credentials, private keys and local connection settings
+*.pem
+*.key
+secrets/
+credentials/
+
+# -----------------------------------------------------------------------------
+# Original and restricted source data
+# Do not publish household-level survey data or provider archives.
+# -----------------------------------------------------------------------------
+AgricProject_Datasets.zip
+Agricultural_Datasets.zip
+*_Datasets.zip
+raw_data/
+source_data/
+private_data/
+data/raw/
+data/source/
+
+# Specific generated/import files containing row-level survey observations
+analysis_survey.csv
+analysis_survey_ready.csv
+survey_crop_loss.csv
+FactSurvey.csv
+Agricultural_Survey_MySQL_Import.sql
+
+# -----------------------------------------------------------------------------
+# Local pipeline runs and potentially row-level exports
+# Keep reviewed, disclosure-safe aggregate outputs in an explicitly curated
+# folder such as outputs/approved_aggregated_results/.
+# -----------------------------------------------------------------------------
+results/
+run_*/
+
+# -----------------------------------------------------------------------------
+# Private database files, backups and logs
+# -----------------------------------------------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+*.duckdb
+*.bak
+*.backup
+*.dump
+*.sql.gz
+*.log
+
+# -----------------------------------------------------------------------------
+# Power BI working files and local caches
+# Keep only reviewed screenshots/documentation in assets/ for public sharing.
+# -----------------------------------------------------------------------------
+*.pbix
+*.pbit
+*.pbip
+*.pbi/
+
+# -----------------------------------------------------------------------------
+# Operating-system and editor files
+# -----------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
