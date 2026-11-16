@@ -13,6 +13,9 @@ An end-to-end agricultural data analytics project examining post-harvest crop lo
 
 **Tools:** Python | MySQL Workbench | Power BI | DAX
 
+Live Dashboard
+https://app.powerbi.com/links/xMrbrjvGU0?ctid=38ec3488-fc77-4e4e-978b-a6797db8efc8&pbi_source=linkShare Open Interactive Power BI Dashboard
+
 ---
 
 ## 1. Project Overview
